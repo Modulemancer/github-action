@@ -4,7 +4,7 @@
   "description": "Login and interact with the Modulemancer APIs.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **.js",
+    "lint": "eslint --ext .js src",
     "test": "npm run lint && jest --coverage --verbose"
   },
   "repository": {

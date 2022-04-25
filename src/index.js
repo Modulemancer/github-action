@@ -368,7 +368,6 @@ exports.reset = function() {
 
 exports.run = run;
 
-/* istanbul ignore next */
 if (require.main === module) {
   run();
 }
