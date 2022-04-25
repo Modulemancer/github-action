@@ -1,5 +1,5 @@
-name: '"Modulemancer registry login" Action For GitHub Actions'
-description: 'Configure credentials for Modulemancer automagically.'
+name: 'Modulemancer registry login'
+description: 'Configure Terraform credentials for Modulemancer automagically.'
 branding:
   icon: 'cloud'
   color: 'green'
