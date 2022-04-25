@@ -39,7 +39,7 @@
     "@babel/eslint-parser": "^7.15.8",
     "eslint-config-cimpress-atsquad": "^1.0.67",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-mocha": "^10.0.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint": "^8.13.0",
     "jest": "^28.0.0"
