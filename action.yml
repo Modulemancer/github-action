@@ -1,7 +1,7 @@
 name: 'Modulemancer registry login'
 description: 'Configure Terraform credentials for Modulemancer automagically.'
 branding:
-  icon: 'cloud'
+  icon: 'package'
   color: 'green'
 runs:
   using: 'node16'
