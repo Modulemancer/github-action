@@ -4,7 +4,7 @@ This is a GitHub Action to automatically login to [Modulemancer](https://modulem
 [Review in the GitHub action marketplace](https://github.com/marketplace/actions/modulemancer-registry-login)
 
 ### What is Modulemancer?
-[Modulemancer](https://modulemancer.com) is a terraform and other infra private module registry. It replaces the Terraform registry with optimized features making it easy to publish, search, and shar modules between organizations.
+[Modulemancer](https://modulemancer.com) is a terraform and other infra private module registry. It replaces the Terraform registry with optimized features making it easy to publish, search, and share modules between organizations.
 
 ### How does this GitHub action work?
 It does this by converting the GitHub security token into an [Authress identity token](https://authress.io) which Modulemancer understands. After converting the token, it populates the terraform credentials file for the `modulemancer.com` registry.
