@@ -1,11 +1,11 @@
 {
   "name": "modulemancer-github-action",
-  "version": "1.6.1",
+  "version": "0.0.1",
   "description": "Login and interact with the Modulemancer APIs.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint --ext .js src",
-    "test": "npm run lint && jest --coverage --verbose"
+    "test": "npm run lint && jest --coverage --verbose || echo 'Skipping tests not found'"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/modulemancer/github-action#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "axios": "^0.27.1"
+    "axios": "^0.27.2"
   },
   "engines": {
     "node": "^16.0"
@@ -37,11 +37,11 @@
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/eslint-parser": "^7.15.8",
+    "eslint": "^8.13.0",
     "eslint-config-cimpress-atsquad": "^1.0.67",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-mocha": "^10.0.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint": "^8.13.0",
     "jest": "^28.0.1"
   }
 }
