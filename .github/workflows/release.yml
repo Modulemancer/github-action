@@ -38,4 +38,4 @@ jobs:
       run: |
         git tag v${GITHUB_REF/refs\/heads\/release\//}.$GITHUB_RUN_NUMBER
         git push origin v${GITHUB_REF/refs\/heads\/release\//}.$GITHUB_RUN_NUMBER
-        git push origin v${GITHUB_REF/refs\/heads\/release\//}.$GITHUB_RUN_NUMBER:v${GITHUB_REF/refs\/heads\/release\//} -f
+        git push origin HEAD:v${GITHUB_REF/refs\/heads\/release\//} -f
