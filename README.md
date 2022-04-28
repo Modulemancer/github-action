@@ -10,7 +10,7 @@ This is a GitHub Action to automatically login to [Modulemancer](https://modulem
 It does this by converting the GitHub security token into an [Authress identity token](https://authress.io) which Modulemancer understands. After converting the token, it populates the terraform credentials file for your `modulemancer.com` registry. The action completes this by creating a [TF credentials file](https://www.terraform.io/cli/config/config-file#locations) is the os-specific location.
 
 ## Usage
-In your GitHub action workflow add the follow step
+In your GitHub action workflow add the follow step. (For sample usage see the [Modulemancer private registry example](https://github.com/Modulemancer/Example-Infra-Repo).)
 
 ```yaml
 # Important! This is required: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
