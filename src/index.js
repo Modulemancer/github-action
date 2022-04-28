@@ -1,5 +1,6 @@
 const core = require('@actions/core');
 const fs = require('fs').promises;
+const path = require('path');
 const axios = require('axios');
 
 async function run() {
@@ -32,7 +33,7 @@ async function run() {
 credentials "modulemancer.com" {
   token = "${token}"
 }`;
-    await fs.writeFile('~/.terraformrc', data);
+    await fs.writeFile(path.join(process.env.HOME, '.terraformrc'), data);
   } catch (error) {
     core.setFailed(`FileSystemError: Failed to write .terraformrc credentials file: ${error.code} - ${error.message}`);
     throw error;
