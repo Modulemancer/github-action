@@ -35,7 +35,7 @@
     "node": "^16.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
+    "@babel/core": "^7.17.10",
     "@babel/eslint-parser": "^7.15.8",
     "eslint": "^8.13.0",
     "eslint-config-cimpress-atsquad": "^1.0.67",
